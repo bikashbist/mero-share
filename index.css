@@ -1,0 +1,159 @@
+header{
+  background-color: #333a56;
+}
+.nav-link{
+  color: #fff;
+  font-size: 26px;
+}
+.nav-link.activated{
+  color: rgb(237, 14, 14) !important;
+}
+.nav-link:hover{
+  color: #7490ff !important;
+}
+.dropdown-toggle:hover{
+  color: #7490ff !important;
+}
+.dropdown-item:hover{
+  color: #7490ff !important;
+}
+
+/*=================================image container===================================*/
+.square-1 {
+  z-index: 10;
+  background-color:  #333a56e0;
+  border-top-left-radius: 40px; 
+  border-bottom-right-radius: 40px;
+  top: 20px;
+  right: 30px;
+  width: 50%;
+}
+.card-text{
+  font-size: 20px;
+}
+.card-title{
+  font-size: 30px;
+}
+
+@media (max-width:992px){
+  .section-2-offers .share img{
+    height: 57vh !important;
+  }
+}
+
+@media (max-width:700px) {
+  .square-1 {
+      z-index: 10;
+      background-color:  #333a56e0;
+      border-top-left-radius: 40px; 
+      border-bottom-right-radius: 40px;
+      top: 2px;
+    right: 0px;
+      width: 100%;
+    }
+
+    .card-text{
+      font-size: 12px;
+    }
+    .card-title{
+      font-size: 15px;
+    }
+    .section-2-offers .share img{
+      height: 30vh !important;
+    }
+}
+
+/*================================= About ===================================*/
+.about .location{
+  background-color: #333a56;
+  color: #fff;
+  line-height: 18px;
+  border-radius: 20px 0px 20px 0px;
+}
+
+/*================================= commision rate ===================================*/
+.nav-pills .nav-link.active{
+  background-color: red !important;
+}
+
+/*================================= Pdf download ===================================*/
+.download-btn{
+  background-color: #333a56;
+  color:#fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 30px;
+  text-decoration: none;
+}
+.download-btn:hover{
+  background-color:#0b112b;
+  color: #ffffff;
+}
+
+/*================================= Partners ===================================*/
+.testi img{
+  object-fit: cover;
+}
+.owl-carousel .testi {
+  border: 1px solid #fff;
+  border-radius: 500px;
+}
+.owl-carousel img {
+  width: 10%;
+}
+.owl-carousel h5 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+}
+.testi h1{
+  font-family: serif;
+}
+.owl-carousel .level {
+  font-size: 18px;
+}
+.owl-nav {
+  display: none;
+}
+
+/*================================= footer ===================================*/
+footer {
+  /* background-color: rgb(212, 235, 252); */
+  background-color:#333a56;
+}
+footer .links a{
+    text-decoration: none;
+}
+footer .links p:hover {
+    color:#12c2de;
+}
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  transition: 0.5s;
+}
+
+/* =========================================Kyc page========================*/
+.kyc .cardss{
+  width: 25%;
+  border: 1px solid;
+  border-radius: 20px 0px 20px 0px;
+}
+@media (max-width: 768px){
+  .kyc .cardss{
+    width: 100%;
+  }
+}
+
+/* =========================================Promoters page========================*/
+input{
+  background-color: #333a56;
+  color: #fff;
+}
+.form{
+  line-height: 30px;
+}
+
+
+
